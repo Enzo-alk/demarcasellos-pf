@@ -1,0 +1,58 @@
+*{
+    /* eliminacion de espacion y margen*/
+    margin: 0;
+    padding: 0;
+    /*tipogragia*/
+    font-family: "Roboto", sans-serif;
+    /*tamaño de la fuente*/
+    font-size: ;
+}
+
+/*header*/
+.encabezado{
+    background-color: #f7f7f7;
+}
+
+.encabezado img{
+    width: 100px;
+}
+.encabezado .container-fluid {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    max-height: 95px; 
+    margin-right: 50px; 
+  }
+/*main*/
+
+.main-color{
+    background-image: url('../assets/background-main.jpg') ;
+}
+.bifurcacion{
+    width: 200px;
+}
+.bifurcacion img{ 
+    width: 100%;
+}
+
+.titulo-centrado {
+  text-align: center; /* Esto centra el texto del h1 horizontalmente */
+}
+/*aside*/
+.fondorosa{
+    background-color: #ffc0cb;
+    margin-top: 40px;
+}
+.textoblanco{
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+
+/*footer*/
+.titulo-centrado {
+    margin-top: 40px; /* Ajusta este valor según tus necesidades */
+    margin-bottom: 40px; /* Ajusta este valor según tus necesidades */
+  }
