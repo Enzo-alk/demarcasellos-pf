@@ -7,10 +7,68 @@
     /*tamaño de la fuente*/
     font-size: ;
 }
+/* HEADER BEM en html  index.html y tinta-al-agua.html*/
+.navegador{
+    background-color: #ffc0cb;
+}
+.navegador__logo {
+    color: #ffffff;
+    text-decoration: none;
+}
+.navegador__links {
+        color: #424242;
+        text-decoration: none;
+}
 
+/*MAIN BEM en html  index.html y tinta-al-agua.html*/
+.contenido{
+    background-image: url('../assets/background-main.jpg') ;
+}
+.contenido__titulo {
+    text-align: center; /* Esto centra el texto del h1 horizontalmente */
+    margin: 20px 0;
+  }
+  .contenido__titulo__subtitulo {
+    text-align: center; /* Esto centra el texto del h1 horizontalmente */
+    margin: 20px 0;
+  }
+.contenido__card{
+    border: 2px solid #747474;
+    
+}
+.contenido__card__text{
+    text-align: center;
+    color: #222222;
+    text-decoration: none;
+}
+.c
+/*ASIDE BEM en html  index.html y tinta-al-agua.html*/
+.fondorosa{
+    background-color: #ffc0cb;
+    margin-top: 40px;
+}
+
+.fondorosa__titulo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;    
+}
+.fondorosa__text{
+    color: #ffffff;
+}
+/*FOOTER BEM en html  index.html y tinta-al-agua.html*/
+.finalizacion {
+    background-color: #ffc0cb;
+}
+.finalizacion__titulo{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
 /*header*/
 .encabezado{
-    background-color: #f7f7f7;
+    background-color: #ffc0cb;
 }
 
 .encabezado img{
@@ -25,6 +83,7 @@
     max-height: 95px; 
     margin-right: 50px; 
   }
+
 /*main*/
 
 .main-color{

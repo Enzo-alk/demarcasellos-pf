@@ -21,28 +21,28 @@
     <header class="encabezado">
       <div class="container-fluid d-flex align-items-center justify-content-between">
         <img src="./assets/de-marca-logo.jpg" alt="logo-de-marca-sellos-personalizados" class="logo"> 
-         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+         <nav class="navbar navbar-expand-lg navegador">
             <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html">Home</a>
+              <a class="navegador__logo" href="./index.html"><strong>HOME</strong></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                   <a class="nav-link active" aria-current="page" href="./html/tinta-al-agua.html">Tinta al agua</a>
+                   <a class="nav-link navegador__links" aria-current="page" href="./html/tinta-al-agua.html">Tinta al agua</a>
                   </li>
                   <li class="nav-item">
-                   <a class="nav-link" href="./html/tinta-tela.html">Tinta tela</a>
+                   <a class="nav-link navegador__links" href="./html/tinta-tela.html">Tinta tela</a>
+                  </li>
+                  <li class="nav-item ">
+                   <a class="nav-link " href="./html/tinta-xilo.html">Tinta xilo</a>
                   </li>
                   <li class="nav-item">
-                   <a class="nav-link" href="./html/tinta-xilo.html">Tinta xilo</a>
+                   <a class="nav-link navegador__links" href="./html/estampado-xilo.html">Superficies</a>
                   </li>
                   <li class="nav-item">
-                   <a class="nav-link" href="./html/estampado-xilo.html">Superficies</a>
-                  </li>
-                  <li class="nav-item">
-                   <a class="nav-link" href="./html/contactos.html">Contactos</a>
+                   <a class="nav-link navegador__links" href="./html/contactos.html">Contactos</a>
                   </li>
                 </ul>
               </div>
@@ -53,18 +53,18 @@
     </header>
 
     <!--En esta seccion el cliente debe elegir cual es el sitema que adquirio-->
-    <main class="main-color">
-      <section>
-          <h1 class="titulo-centrado">MANUALES DE USUARIO</h1>
-              <p class="titulo-centrado">Selecciona que tipo de combo adquiriste, para ir al manual correcto.</p>
-             <div class="container">
+    <main>
+      <section class="contenido">
+          <h1 class="contenido__titulo">MANUALES DE USUARIO</h1>
+              <p class="contenido__titulo__subtitulo">Selecciona que tipo de combo adquiriste, para ir al manual correcto.</p>
+             <div class="container ">
               <div class="row">
-                  <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="col-sm-12 col-md-6 col-lg-4 ">
                       <!-- Card 1 -->
-                      <div class="card" style="width: 18rem;">
+                      <div class="card contenido__card" style="width: 18rem;">
                           <img src="./assets/GASTRONOMIA.jpg" class="card-img-top" alt="tinta-al-agua">
-                          <div class="card-body">
-                              <h5 class="card-title">Tinta Comun</h5>
+                          <div class="card-body ">
+                              <h5 class="card-title contenido__card__text">Tinta Comun</h5>
                               <p class="card-text">Elegí esta opción si adquiriste un combo con tinta común al agua. Esta tinta es la mas usada para papel y carton. </p>
                               <a href="./html/tinta-al-agua.html" class="btn btn-primary">Ir al manual</a>
                           </div>
@@ -72,10 +72,10 @@
                   </div>
                   <div class="col-sm-12 col-md-6 col-lg-4">
                       <!-- CARD 2 -->
-                      <div class="card" style="width: 18rem;">
+                      <div class="card contenido__card" style="width: 18rem;">
                           <img src="./assets/INDUMENTARIA.jpg" class="card-img-top" alt="tinta-al-agua">
                           <div class="card-body">
-                              <h5 class="card-title">Tinta para Friselina</h5>
+                              <h5 class="card-title contenido__card__text">Tinta para Friselina</h5>
                               <p class="card-text">Elegi esta opción si adquiriste un combo con tinta para aplicar sobre telas, friselina, o mdf sin tratamientos.</p>
                               <a href="./html/tinta-tela.html" class="btn btn-primary">Ir al manual</a>
                           </div>
@@ -83,10 +83,10 @@
                   </div>
                   <div class="col-sm-12 col-md-12 col-lg-4">
                       <!-- card 3 -->
-                      <div class="card" style="width: 18rem;">
+                      <div class="card contenido__card" style="width: 18rem;">
                           <img src="./assets/TELAS.jpg" class="card-img-top" alt="tinta-al-agua">
                           <div class="card-body">
-                              <h5 class="card-title">Tinta Xilografica</h5>
+                              <h5 class="card-title contenido__card__text">Tinta Xilografica</h5>
                               <p class="card-text">Elegi esta opción si adquiriste un combo con rodillo y tinta xilografica. Esta tinta funciona en cualquier superficie.</p>
                               <a href="./html/tinta-xilo.html" class="btn btn-primary">Ir al manual</a>
                           </div>
@@ -97,9 +97,9 @@
       </section>
   </main>
     <!--Se puede dejar esta parte para novedades o publicidad?-->
-    <aside class="fondorosa">
-      <div class="textoblanco">
-        <h3 class="titulo-centrado">NOVEDADES</h3>
+    <aside class="novedades">
+      <div >
+        <h3 class="novedades__titulo">NOVEDADES</h3>
         <div id="carouselExampleIndicators" class="carousel slide">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
