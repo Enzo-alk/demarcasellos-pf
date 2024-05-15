@@ -5,13 +5,12 @@
     /*tipogragia*/
     font-family: "Roboto", sans-serif;
     /*tamaño de la fuente*/
-    font-size: ;
 }
 /* HEADER BEM en html  index.html y tinta-al-agua.html*/
-.navegador{
+.encabezado{
     background-color: #ffc0cb;
 }
-.navegador__logo {
+.encabezado__logo {
     color: #ffffff;
     text-decoration: none;
 }
@@ -43,7 +42,7 @@
 }
 .c
 /*ASIDE BEM en html  index.html y tinta-al-agua.html*/
-.fondorosa{
+.novedades{
     background-color: #ffc0cb;
     margin-top: 40px;
 }
