@@ -14,6 +14,9 @@
     color: #ffffff;
     text-decoration: none;
 }
+.encabezado__navegador{
+    background-color: #ffc0cb;
+}
 .navegador__links {
         color: #424242;
         text-decoration: none;
@@ -65,8 +68,12 @@
     color: #ffffff;
     text-decoration: none;
 }
+.finalizacion__centrado {
+    margin-top: 40px; /* Ajusta este valor según tus necesidades */
+    margin-bottom: 40px; /* Ajusta este valor según tus necesidades */
+  }
 /*header*/
-.encabezado{
+encabezado{
     background-color: #ffc0cb;
 }
 
@@ -108,9 +115,3 @@
     margin-top: 40px;
 }
 
-
-/*footer*/
-.titulo-centrado {
-    margin-top: 40px; /* Ajusta este valor según tus necesidades */
-    margin-bottom: 40px; /* Ajusta este valor según tus necesidades */
-  }
