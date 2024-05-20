@@ -11,6 +11,10 @@
     background-color: #ffc0cb;
 }
 .encabezado__logo {
+    max-height: 95px; 
+    margin-right: 50px; 
+  }
+.encabezado__navegador__logo {
     color: #ffffff;
     text-decoration: none;
 }
@@ -21,6 +25,10 @@
         color: #424242;
         text-decoration: none;
 }
+.encabezado .container-fluid {
+    display: flex;
+    align-items: center;
+  }
 
 /*MAIN BEM en html  index.html y tinta-al-agua.html*/
 .contenido{
@@ -46,10 +54,15 @@
 .c
 /*ASIDE BEM en html  index.html y tinta-al-agua.html*/
 .novedades{
-    background-color: #ffc0cb;
+    background-color: #ffffff;
     margin-top: 40px;
 }
-
+.novedades__titulo{
+    color: #222222;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 .fondorosa__titulo{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -73,22 +86,12 @@
     margin-bottom: 40px; /* Ajusta este valor según tus necesidades */
   }
 /*header*/
-encabezado{
-    background-color: #ffc0cb;
-}
 
-.encabezado img{
-    width: 100px;
-}
-.encabezado .container-fluid {
-    display: flex;
-    align-items: center;
-  }
 
-  .logo {
-    max-height: 95px; 
-    margin-right: 50px; 
-  }
+
+
+
+
 
 /*main*/
 
@@ -106,12 +109,5 @@ encabezado{
   text-align: center; /* Esto centra el texto del h1 horizontalmente */
 }
 /*aside*/
-.fondorosa{
-    background-color: #ffc0cb;
-    margin-top: 40px;
-}
-.textoblanco{
-    color: #ffffff;
-    margin-top: 40px;
-}
+
 
