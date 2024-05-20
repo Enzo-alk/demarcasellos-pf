@@ -21,7 +21,7 @@
 .encabezado__navegador{
     background-color: #ffc0cb;
 }
-.navegador__links {
+.encabezado__navegador__links {
         color: #424242;
         text-decoration: none;
 }
@@ -54,8 +54,7 @@
 .c
 /*ASIDE BEM en html  index.html y tinta-al-agua.html*/
 .novedades{
-    background-color: #ffffff;
-    margin-top: 40px;
+    background-color: #ffc0cb ;
 }
 .novedades__titulo{
     color: #222222;
@@ -69,8 +68,8 @@
     text-align: center;
     color: #ffffff;    
 }
-.fondorosa__text{
-    color: #ffffff;
+.novedades__text{
+    color: #414141;
 }
 /*FOOTER BEM en html  index.html y tinta-al-agua.html*/
 .finalizacion {
@@ -85,29 +84,6 @@
     margin-top: 40px; /* Ajusta este valor según tus necesidades */
     margin-bottom: 40px; /* Ajusta este valor según tus necesidades */
   }
-/*header*/
 
-
-
-
-
-
-
-/*main*/
-
-.main-color{
-    background-image: url('../assets/background-main.jpg') ;
-}
-.bifurcacion{
-    width: 200px;
-}
-.bifurcacion img{ 
-    width: 100%;
-}
-
-.titulo-centrado {
-  text-align: center; /* Esto centra el texto del h1 horizontalmente */
-}
-/*aside*/
 
 
