@@ -1,0 +1,16 @@
+//reset
+@import'./reset/variables' ;
+@import './reset/configuracion';
+//header
+@import './encabezado' ;
+
+//main
+@import './contenido' ;
+
+//aside
+@import './novedades' ;
+
+//footer
+@import './finalizacion' ;
+//mq
+

@@ -1,0 +1,20 @@
+.contenido{
+    background-image: url('../assets/background-main.jpg') ;
+}
+.contenido__titulo {
+    text-align: center; /* Esto centra el texto del h1 horizontalmente */
+    margin: 20px 0;
+  }
+  .contenido__titulo__subtitulo {
+    text-align: center; /* Esto centra el texto del h1 horizontalmente */
+    margin: 20px 0;
+  }
+.contenido__card{
+    border: 2px solid $tipografias-oscuras;
+    
+}
+.contenido__card__text{
+    text-align: center;
+    color: $tipografias-oscuras;
+    text-decoration: none;
+}

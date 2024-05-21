@@ -6,6 +6,7 @@
     font-family: "Roboto", sans-serif;
     /*tamaño de la fuente*/
 }
+
 /* HEADER BEM en html  index.html y tinta-al-agua.html*/
 .encabezado{
     background-color: #ffc0cb;
@@ -51,7 +52,7 @@
     color: #222222;
     text-decoration: none;
 }
-.c
+
 /*ASIDE BEM en html  index.html y tinta-al-agua.html*/
 .novedades{
     background-color: #ffc0cb ;
