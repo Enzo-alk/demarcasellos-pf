@@ -1,22 +1,26 @@
-.encabezado{
-    background-color: $color-principal ;
-}
-.encabezado__logo {
-    max-height: 95px; 
-    margin-right: 50px; 
-  }
-.encabezado__navegador__logo {
-    color: $color-tipografias-claras;
-    text-decoration: none;
-}
-.encabezado__navegador{
+.encabezado {
     background-color: $color-principal;
-}
-.encabezado__navegador__links {
-        color: $tipografias-oscuras;
+  
+    &__logo {
+      max-height: 95px;
+      margin-right: 50px;
+    }
+  
+    &__navegador {
+      background-color: $color-principal;
+  
+      &__logo {
+        color: $color-tipografias-claras;
         text-decoration: none;
-}
-.encabezado .container-fluid {
-    display: flex;
-    align-items: center;
+      }
+  
+      &__links {
+        @include textosespeciales($tipografias-oscuras, none ) 
+      }
+    }
+  
+    .container-fluid {
+      display: flex;
+      align-items: center;
+    }
   }

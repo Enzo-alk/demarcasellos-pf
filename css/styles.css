@@ -10,6 +10,7 @@
 /* HEADER BEM en html  index.html y tinta-al-agua.html*/
 .encabezado{
     background-color: #ffc0cb;
+    height: 100px;
 }
 .encabezado__logo {
     max-height: 95px; 
@@ -38,10 +39,12 @@
 .contenido__titulo {
     text-align: center; /* Esto centra el texto del h1 horizontalmente */
     margin: 20px 0;
+    font-size: 4rem;
   }
   .contenido__titulo__subtitulo {
     text-align: center; /* Esto centra el texto del h1 horizontalmente */
     margin: 20px 0;
+    font-size: 1,5rem;
   }
 .contenido__card{
     border: 2px solid #747474;
@@ -51,6 +54,7 @@
     text-align: center;
     color: #222222;
     text-decoration: none;
+    font-size: 1,5rem;
 }
 
 /*ASIDE BEM en html  index.html y tinta-al-agua.html*/
@@ -62,15 +66,11 @@
     margin-top: 60px;
     margin-bottom: 30px;
     text-align: center;
-}
-.fondorosa__titulo{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #ffffff;    
+    font-size: 2rem;
 }
 .novedades__text{
     color: #414141;
+    font-size: 1rem;
 }
 /*FOOTER BEM en html  index.html y tinta-al-agua.html*/
 .finalizacion {
@@ -80,6 +80,7 @@
     text-align: center;
     color: #ffffff;
     text-decoration: none;
+    font-size: 1,5rem;
 }
 .finalizacion__centrado {
     margin-top: 40px; /* Ajusta este valor según tus necesidades */

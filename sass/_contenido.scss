@@ -1,20 +1,25 @@
-.contenido{
-    background-image: url('../assets/background-main.jpg') ;
-}
-.contenido__titulo {
-    text-align: center; /* Esto centra el texto del h1 horizontalmente */
+.contenido {
+  @include background;
+
+  &__titulo {
+    text-align: center; // Esto centra el texto del h1 horizontalmente
     margin: 20px 0;
+    font-size: map-get($titulos, '4rem');
+
+    &__subtitulo {
+      text-align: center; // Esto centra el texto del h1 horizontalmente
+      margin: 20px 0;
+      font-size: map-get($titulos, '1.5rem');
+    }
   }
-  .contenido__titulo__subtitulo {
-    text-align: center; /* Esto centra el texto del h1 horizontalmente */
-    margin: 20px 0;
-  }
-.contenido__card{
+
+  &__card {
     border: 2px solid $tipografias-oscuras;
-    
-}
-.contenido__card__text{
-    text-align: center;
-    color: $tipografias-oscuras;
-    text-decoration: none;
+
+    &__text {
+      text-align: center;
+      @include textosespeciales($tipografias-oscuras, none);
+      font-size: map-get($titulos, '1.5rem');
+    }
+  }
 }
