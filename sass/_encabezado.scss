@@ -1,0 +1,26 @@
+.encabezado {
+    background-color: $color-principal;
+  
+    &__logo {
+      max-height: 95px;
+      margin-right: 50px;
+    }
+  
+    &__navegador {
+      background-color: $color-principal;
+  
+      &__logo {
+        color: $color-tipografias-claras;
+        text-decoration: none;
+      }
+  
+      &__links {
+        @include textosespeciales($tipografias-oscuras, none ) 
+      }
+    }
+  
+    .container-fluid {
+      display: flex;
+      align-items: center;
+    }
+  }

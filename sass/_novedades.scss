@@ -1,0 +1,17 @@
+.novedades {
+    background-color: $color-principal;
+  
+    &__titulo {
+      color: $tipografias-oscuras;
+      margin-top: 60px;
+      margin-bottom: 30px;
+      text-align: center;
+      font-size: map-get($titulos, '2rem');
+    }
+  
+    &__text {
+      color: $tipografias-oscuras;
+      font-size: map-get($titulos, '1rem');
+    }
+  }
+  

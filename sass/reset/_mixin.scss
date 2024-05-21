@@ -1,0 +1,10 @@
+//MIXINS
+
+@mixin background{
+    background-image: url('../assets/background-main.jpg') ;
+}
+
+@mixin textosespeciales($c, $td){
+    color: $c;
+    text-decoration: $td;
+}

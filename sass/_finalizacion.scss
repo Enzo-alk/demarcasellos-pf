@@ -1,0 +1,15 @@
+.finalizacion {
+    background-color: $color-principal;
+  
+    &__titulo {
+      text-align: center;
+      @include textosespeciales($color-tipografias-claras, none);
+      font-size: map-get($titulos, '1.5rem');
+    }
+  
+    &__centrado {
+      margin-top: 40px; 
+      margin-bottom: 40px; 
+    }
+  }
+  
