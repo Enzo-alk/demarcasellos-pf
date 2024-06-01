@@ -51,6 +51,11 @@
   text-decoration: none;
 }
 
+.btn {
+  background-color: #ffc0cb;
+  border-color: #ffc0cb;
+}
+
 .novedades {
   background-color: #ffc0cb;
 }
